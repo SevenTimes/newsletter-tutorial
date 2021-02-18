@@ -19,7 +19,8 @@ body {
 	margin: 0 auto;
 }
 
-.row .stories {
+.row,
+.stories {
 	display: flex;
 }
 
@@ -27,7 +28,8 @@ body {
 	flex-direction: column;
 }
 
-.row div .stories div {
+.row div,
+.stories div {
 	flex: 1;
 }
 
@@ -41,7 +43,8 @@ p.date {
 	font-weight: bold;
 }
 
-.top-story img .top-story p {
+.top-story img,
+.top-story p {
 	width: 80%;
 	margin: 0 auto;
 }
